@@ -1,0 +1,32 @@
+{
+  "name": "taskme",
+  "version": "1.0.0",
+  "description": "Building the task application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Authentication",
+    "authorization",
+    "CRUD",
+    "operation"
+  ],
+  "author": "Ikeji Precious",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "modules": "^0.4.0",
+    "mongoose": "^8.5.2",
+    "morgan": "^1.10.0",
+    "node": "^22.8.0",
+    "nodemailer": "^6.9.14"
+  }
+}
